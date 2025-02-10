@@ -1,0 +1,695 @@
+body{
+    margin: 0;
+    font-family: "utopia-std-headline", serif;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+p{
+    font-family: "Lato",serif;
+}
+
+/*----------------- nav bar -----------------*/
+
+.nav-bar{
+    background-color: white;
+    width: 100%;
+    height: 54px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+.nav-bar i{
+    padding-top: 5px;
+    opacity: 0.8;
+    font-size: 20px;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.nav-bar i:hover{
+    transform: scale(1.1);
+}
+
+/* ---------------main content--------------- */
+
+.main-div{
+    display: flex;
+    position: relative;
+    background-color: rgb(58, 202, 42);
+    width: 100%;
+    height: 1010px;
+    justify-content: center;
+    align-items: center;
+}
+.main-text-outer-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 450px;
+    width: 720px;
+    height: 500px;
+}
+.main-text-inner-div{
+    width: 100%;
+    height: 100%;
+}
+.main-text-inner-div h1,p{
+    color: white;
+    margin-bottom: 30px;
+}
+.main-text-inner-div h1{
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+.main-text-inner-div p{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    opacity: 0.8;
+}
+.main-btn{
+    width: 300px;
+    font-size: 15px;
+    border: none;
+    padding: 16px 35px 16px 35px;
+    background-color: rgb(251, 7, 19);
+    color: white;
+    font-weight: bold;
+    margin-left: 215px;
+    letter-spacing: 2px;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.main-btn:hover{
+    transform: scale(1.01);
+}
+
+/* hero image */
+.main-div img{
+    position: absolute;
+    left: 90px;
+    top: 80px;
+    width: 950px;
+    height: 500px;
+    padding-left: 40px;
+    margin-top: 430px;
+}
+
+/*---------------- second part ---------------*/
+
+.sec-red-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(251, 7, 19);
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.red-div-inner-left, 
+.red-div-inner-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.red-div-inner-left h1 {
+    margin: 10px 50px;
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+}
+.red-div-inner-left p {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.red-div-inner-right p {
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+.sec-red-btn{
+    width: 350px;
+    font-size: 15px;
+    border: none;
+    padding: 16px 35px 16px 35px;
+    background-color: rgb(241, 163, 11);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.sec-red-btn:hover{
+    transform: scale(1.01);
+}
+
+/*---------------- third part ---------------*/
+
+.third-white-div{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 430px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.third-white-upper-div{
+    margin-left: 400px;   
+    position: absolute;
+}
+.third-white-upper-div h1{
+    display: block;
+    font-weight: bold;
+    font-size: 50px;
+    width: 100%;
+}
+.third-white-upper-div p{
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 75px;
+    width: 100%;
+    color: black;
+    opacity: 0.7;
+}
+.third-white-lower-div{
+    display: grid;
+    color: black;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+.lower-1,.lower-2,.lower-3,.lower-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.third-white-lower-div p{
+    font-size:16px;
+    line-height: 1.5;
+    color: black;
+    width: 200px;
+    opacity: 0.7;
+}
+.round-div-odd,.round-div-even {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 180px; 
+}
+.round-div-odd{
+    background-color: rgb(251, 7, 19); 
+}
+.round-div-odd p, .round-div-even p{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px; 
+}
+.round-div-odd h3, .round-div-even h3{
+    font-weight: bold;
+    font-size: 50px;
+}
+.round-div-even{
+    background-color: rgb(34, 143, 245); 
+}
+
+/*---------------- forth part ----------------*/
+
+.forth-blue-div{
+    display: flex;
+    color: white;
+    background-color: rgb(34, 143, 245);
+    width: 100%;
+    height: auto;
+}
+.forth-blue-div img{
+    width: 625px;
+    height: 550px;
+}
+.forth-blue-inner-div{
+    margin-top: 80px;
+    margin-left: 75px;
+    width: 500px;
+    height: 350px;
+}
+.forth-blue-inner-div h1{
+    margin-left: 115px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.forth-blue-inner-div p{
+    text-align: center;
+    opacity: 0.7;
+}
+.forth-blue-btn{
+    width: 240px;
+    margin-left: 115px;
+    font-size: 15px;
+    border: none;
+    padding: 16px 18px 16px 18px;
+    background-color: rgb(241, 163, 11);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.forth-blue-btn:hover{
+    transform: scale(1.01);
+}
+
+/*------------------ fifth part -----------------*/
+
+.fifth-white-div{
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    padding-bottom: 25px;
+}
+.fifth-upper-div{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 15px;
+    justify-content: center;
+}
+.fifth-upper-div p{
+    position: absolute;
+    left: 280px;
+    margin-bottom: -5px;
+    color: black;
+    font-weight: bold;
+}
+.fifth-upper-div h1{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    align-items: center;
+    margin-right: 100px;
+    font-size: 45px;
+    display: inline-block;
+}
+.fifth-lower-div{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    height: auto;
+}
+.fifth-lower-div img{
+    position: absolute;
+    top: 110px;
+    left: 480px;
+    width: 290px;
+    height: 450px;
+    transition: transform 0.3 ease;
+}
+.fifth-lower-div img:hover{
+    transform: scale(1.01);
+}
+.lower-left{
+    position: absolute;
+    width: 290px;
+    height: 500px;
+    left: 140px;
+    top: 45px;
+}
+.lower-right{
+    position: absolute;
+    width: 290px;
+    height: auto;
+    left: 820px;
+    top: 45px;
+}
+.lower-left p,.lower-right p{
+    opacity: 0.7;
+    color: black;
+    font-size: 16px;
+}
+.lower-left h3,.lower-right h3{
+    font-weight: normal;
+    font-family: "Lato" ,serif;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.gap-div{
+    margin: 80px 0px;
+    transition: transform 0.3 ease;
+}
+.gap-div:hover{
+    transform: scale(1.1);
+}
+.left-h3, .left-p{
+    text-align: end;
+}
+.right-h3, .right-p{
+    text-align: start;
+}
+
+/*---------------- sixth part --------------*/
+
+.box-outer-div{
+    width: 100%;
+    height: 100vh;
+}
+.box-outer-div img{
+    height: fit-content;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.box-div{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 340px;
+    top: 70px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    transition: transform 0.5 ease;
+}
+.box-div:hover{
+    transform: scale(1.01);
+}
+.box-div h1{
+    margin-top: 30px;
+    opacity: 0.9;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 155px;
+}
+.box-div p{
+    color: black;
+    padding: 0px 20px;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: 15px;
+    text-align: center;
+}
+.box-btn{
+    width: 350px;
+    margin-left: 125px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    padding: 16px 35px 16px 35px;
+    background-color: rgb(241, 163, 11);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.box-btn:hover{
+    transform: scale(1.01);
+}
+
+/*----------------- seventh part -----------------*/
+
+.last-red-div{
+    position: relative;
+    padding-top: 5px;
+    height: 330px;
+    background-color: rgb(251, 7, 19); 
+}
+.last-red-div h1{
+    color: white;
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 450px;
+}
+.last-red-div p{
+    margin-top: -10px;
+    margin-left: 310px;
+    opacity: 0.8;
+    padding-bottom: 30px;
+}
+.last-red-btn{
+    width: 280px;
+    margin-left: 525px;
+    font-size: 15px;
+    border: none;
+    padding: 16px 35px 16px 35px;
+    background-color: rgb(241, 163, 11);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.last-red-btn:hover{
+    transform: scale(1.01);
+}
+
+
+/* eightth part */
+
+.last-blue-div{
+    background-color: rgb(34, 143, 245);
+    position: relative;
+    padding-top: 5px;
+    width: 100%;
+    height: 450px;
+    color: white;
+}
+.last-blue-div h1{
+    margin-top: 50px;
+    margin-left: 510px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.last-blue-div .last-blue-p1{
+    margin-top: 20px;
+    margin-left: 545px;
+    font-size: 20px;
+    opacity: 0.9;
+
+}
+.last-blue-div .last-blue-p2{
+    width: 600px;
+    opacity: 0.7;
+    margin-left: 325px;
+    text-align: center;
+    font-family: "Lato",serif;
+}
+.last-blue-div .last-blue-p3{
+    margin-left: 575px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.last-blue-btn-div{
+    margin-left: 588px;
+    margin-top: 50px;
+}
+.last-blue-btn{
+    width: 30px;
+    padding: 0px 6px;
+    cursor: pointer;
+}
+.arrow-left-div{
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.arrow-left-div:hover{
+    transform: scale(1.1);
+}
+.left-arrow{
+    color: rgb(34, 143, 245);
+    position: absolute;
+    top: -23px;
+    left: 15px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.5;
+}
+.arrow-right-div{
+    position: absolute;
+    left: 1170px;
+    top: 200px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.arrow-right-div:hover{
+    transform: scale(1.1);
+}
+.right-arrow{
+    color: rgb(34, 143, 245);
+    position: absolute;
+    top: -23px;
+    left: 15px;
+    font-size: 25px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+/*------------------- nineth part ------------------*/
+
+.last-outer-div{
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* left */
+.last-left-div{
+    margin-left: 10px;
+
+}
+.last-left-div h1{
+    margin: 50px 0px 0px 75px;
+    font-weight: bold;
+    font-size: 50px;
+    opacity: 0.9;
+}
+.last-left-div h4{
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 0px 80px;
+    margin-top: 30px;
+    text-align: start;
+    font-family: "Lato" ,serif;
+}
+.last-left-div p{
+    color: black;
+    padding: 5px 80px;
+    opacity: 0.7;
+}
+.i-div{
+    margin-left: 80px;
+    display: flex;
+}
+.i-div div{
+    display: flex;
+    margin: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 170, 25);
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.i-div div:hover{
+    transform: scale(1.1);
+}
+.i-div i{
+    color: white;
+}
+
+/* right */
+.last-right-div h1{
+    margin: 50px 0px 0px 100px;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+form{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+form label{
+    text-align: start;
+    margin-top: 40px;
+    opacity: 0.9;
+}
+.form-input{
+    border: none;
+    margin-top: 10px;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    opacity: 0.7;
+    width: 400px;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 425px;
+}
+#check{
+    margin: 20px 0px 20px 0px;
+    text-align: start;
+}
+form p{
+    color: black;
+    margin-top: -37px;
+    margin-left: 20px;
+}
+form p a{
+    text-decoration: none;
+    color: rgb(124, 177, 200);
+}
+
+.form-btn{
+    width: 425px;
+    font-size: 15px;
+    border: none;
+    padding: 12px 35px 12px 35px;
+    background-color: rgb(223, 170, 25);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/*-------------- footer --------------*/
+
+.footer-div{
+    background-color: rgb(49, 49, 49); 
+    width: 100%; 
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-footer-div{
+    height: 100%;
+    width: 400px;
+}
+.inner-footer-div p{
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0.5;
+}
