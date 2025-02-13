@@ -7,6 +7,7 @@ module.exports = {
       width: {
         '726': '726px'
       }
+      
     },
   },
   plugins: [],

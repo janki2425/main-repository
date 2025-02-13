@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body style="background-image: 
-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), /* White overlay at 50% opacity */
+linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
 url('../img/bg-img.png');
-background-size: cover;">
-    <header class="w-full h-[50px] flex flex-row mt-[46px] justify-around text-center items-center">
-        <div class="flex flex-row items-center space-x-2">
+background-size: cover;" class="font-[Open Sans]">
+    <header class="w-[854] h-[50px] flex flex-row mt-[46px] text-center items-center ml-[73px]">
+        <div class="flex flex-row items-center space-x-2 mr-[123px]">
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M26.6137 36.195C26.6137 32.1355 29.7997 28.8452 33.7296 28.8452C34.7119 28.8452 35.648 29.05 36.4996 29.4224C39.0527 30.5388 40.845 33.1506 40.845 36.195C40.845 40.2527 37.6594 43.5435 33.7296 43.5435C29.7997 43.5435 26.6137 40.2527 26.6137 36.195ZM50.0001 2.87922C47.433 2.97853 44.296 5.05702 44.2285 8.75893C44.2151 9.51574 44.2026 10.3413 44.1919 11.2137C42.7487 6.59069 41.4183 2.28761 40.7442 0C38.3325 0.913422 35.9712 3.89196 37.0136 7.43344C37.358 8.60136 37.8023 10.0739 38.3006 11.7064L38.3011 11.7088C35.5477 7.48836 33.0537 3.64415 31.8273 1.69364C29.7553 3.26217 28.2857 6.8003 30.2389 9.90442C32.1102 12.8796 35.8639 18.659 39.0366 23.5236C39.0019 23.5079 38.9677 23.4883 38.9321 23.4735C37.3331 22.7749 35.575 22.3887 33.7296 22.3887C26.3474 22.3887 20.3627 28.5701 20.3627 36.195C20.3627 43.819 26.3474 50 33.7296 50H46.7752C48.5184 50 49.9307 48.5408 49.9307 46.7402V29.4454C49.9307 29.4454 49.8757 9.701 50.0001 2.87922Z"
@@ -46,208 +51,227 @@ background-size: cover;">
                     d="M0 30.8394C0 30.8394 4.15176 24.9262 9.83321 24.4253C15.5142 23.9264 20.5748 29.0278 20.5748 29.0278L0 30.8394Z"
                     fill="#252C8A" />
             </svg>
-            <h1 class="text-5xl"><span class="text-[#252C8A]">Farm</span>Flex</h1>
+            <h1 class="text-[35px] font-[600]"><span class="text-[#252C8A]">Farm</span>Flex</h1>
         </div>
-        <div class="space-x-5 ">
+        <nav class="space-x-[20px] w-[296px] text-[14px] font-[600]">
             <a class="text-[#252C8A] border-b-2 border-[#252C8A] pb-0.5 text-center" href="/">Home</a>
-            <a class="text-[#3F4341]" href="#product">Product</a>
-            <a class="text-[#3F4341]" href="#team">Team</a>
-            <a class="text-[#3F4341]" href="#blog">Blog</a>
-            <a class="text-[#3F4341]" href="#contact">Contact</a>
-        </div>
-        <a class="flex flex-row items-center text-center py-2 px-[20px] bg-[#252C8A] text-white rounded-full"><img
-                class="w-[18px] h-[18px] mr-2" src="../img/signup_img.png" alt="">Sign Up</a>
+            <a class="text-[#191919] opacity-80" href="#product">Product</a>
+            <a class="text-[#191919] opacity-80" href="#team">Team</a>
+            <a class="text-[#191919] opacity-80" href="#blog">Blog</a>
+            <a class="text-[#191919] opacity-80" href="#contact">Contact</a>
+        </nav>
+        <a
+            class="flex flex-row items-center text-center w-[100px] h-[30px] bg-[#252C8A] text-white rounded-full ml-[124px] text-[12px] font-[600]"><img
+                class="w-[18px] h-[18px] ml-3 mr-2" src="../img/signup_img.png" alt="">Sign Up</a>
     </header>
-    <section class="pt-20">
-        <div class="flex ml-32">
-            <div class="flex flex-col w-[500px] text-start pt-5 space-y-[29px]">
-                <h1 class="text-[28px] font-bold text-[#191919]">Discover a novel approach to
-                    agricultural investment</h1>
-                <p class="text-[16px] w-2/3 text-[#191919] opacity-80">Farm flex provides farmers and agricultural
-                    stakeholders withconvenient online tools and
-                    educational resources.</p>
+    <main>
+        <section>
+            <div class="flex ml-[73px]">
+                <div class="flex flex-col w-[500px] text-start space-y-[29px]">
+                    <h1 class="text-[28px] font-[700] text-[#191919] pt-[79px]">Discover a novel approach to
+                        agricultural investment</h1>
+                    <p class="text-[16px] font-[600] w-[343px] text-[#191919] opacity-80">Farm flex provides farmers and
+                        agricultural
+                        stakeholders withconvenient online tools and
+                        educational resources.</p>
+                    <button
+                        class="bg-[#252C8A] text-white rounded-full w-[120px] h-[35px] text-[12px] font-[600] drop-shadow-3xl shadow-[#252C8A]">Invest
+                        Quickly</button>
+                </div>
+                <img class="rounded-[100px] w-[408px] h-[400px] mr-[73px] mt-[79px]" src="../img/page1-img.png" alt="">
+            </div>
+        </section>
+        <section class="pt-[80px]">
+            <div class="flex flex-col relative">
+                <div class="ml-[73px] space-y-[20px]">
+                    <h2 class="text-[28px] font-[700] text-[#191919]">Emerging chances</h2>
+                    <p class="text-[14px] w-[475px] text-[#191919] font-[600] opacity-80">We stand as the premier and
+                        sole
+                        crowdfunding platform empowering
+                        you to contribute to financing our farmers.</p>
+                </div>
+                <div class="flex w-[754px] mx-auto gap-[57px] mt-[80px]">
+                    <div
+                        class="w-[349px] h-[347px] border-[1px] rounded-[50px] border-[#252C8A] bg-white text-center items-center space-y-[20px] pb-2">
+                        <div class="flex items-center justify-center pt-[60px]">
+                            <img class="w-[55px] h-[56px]" src="../img/page2_1.png" alt="">
+                            <img class="w-[42px] h-[42px]" src="../img/page2_2.png" alt="">
+                        </div>
+                        <h3 class="text-[18px] font-[600] w-[240px] text-start ml-[42px]">Establish a connection with
+                            our agricultural producers.</h3>
+                        <p class="text-[#191919] opacity-60 text-[14px] text-start w-[265px] mx-auto">nemo enim ipsam
+                            voluptatem quia
+                            voluptas sit aspernatur aut odit aut
+                            fugit, sed quia consequuntur magni
+                            dolores</p>
+                    </div>
+                    <div
+                        class="w-[349px] h-[347px] border-[1px] border-[#252C8A] bg-white rounded-[50px] text-center items-center space-y-[20px] pb-2">
+                        <div class="flex items-center justify-center pt-[60px]">
+                            <img class="w-[55px] h-[55px] mx-auto" src="../img/page2_3.png" alt="">
+                        </div>
+                        <h3 class="text-[18px] font-[600] w-[220px] text-start ml-[64px]">Investment with a focus
+                            on social impact</h3>
+                        <p class="text-[#191919] opacity-60 text-[14px] text-start w-[214px] mx-auto">At vero eos et
+                            accusamus et
+                            iusto odio dignissimos ducimus
+                            qui blanditiis praesentium
+                            voluptatum deleniti atque</p>
+                    </div>
+                    <div class="absolute flex w-[854px] gap-[794px] top-[345px] left-[73px]">
+                        <img class="w-[30px] h-[30px] rotate-180" src="../img/page2_arrow.png" alt="">
+                        <img class="w-[30px] h-[30px]" src="../img/page2_arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr class="z-30 w-[839px] bg-[#000] text-[#000] border-[1px] mt-[80px] mx-auto">
+        <hr class="w-4/5 mx-auto text-[#D9D9D9]">
+        <section class="pt-[80px]">
+            <div class="flex flex-col relative">
+                <div class="ml-[73px] space-y-[20px]">
+                    <h2 class="text-[28px] font-[700] text-[#191919] w-[389px]">Invest at your convenience</h2>
+                    <p class="text-[14px] w-[516px] text-[#191919] font-[600] opacity-80">Autem vel eum iure
+                        reprehenderit
+                        qui in ea voluptate velit esse quam nihil
+                        molestiae consequatur , vel illum qui dolorem eum fugiat quo voluptas nulla</p>
+                </div>
+                <div class="flex mx-auto mt-[80px] gap-[57px]">
+                    <div class="relative">
+                        <img class="w-[356px] h-[289px] blur-[2px] rounded-[50px]" src="../img/page3_1.png" alt="">
+                        <div
+                            class="absolute w-[238px] h-[181px] text-start top-[54px] ml-[30px] space-y-[20px] text-white">
+                            <h3 class="w-[150px] h-[68px] font-[700] text-[24px]">Quick profit
+                                investment</h3>
+                            <p class="w-[237px] h-[43px] font-[700] text-[14px]">Invest in farm that will benready
+                                for harvest in 3-18 months </p>
+                            <button
+                                class="w-[100px] h-[30px] rounded-[100px] text-[12px] font-[600] bg-white text-[#191919]">Browse
+                                farm</button>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img class="w-[356px] h-[289px] blur-[2px] rounded-[50px]" src="../img/page3_2.png" alt="">
+                        <div
+                            class="absolute w-[238px] h-[181px] text-start top-[54px] ml-[30px] space-y-[20px] text-white">
+                            <h3 class="w-[217px] h-[68px] font-[700] text-[24px]">Long-term growth
+                                investment</h3>
+                            <p class="w-[211px] h-[43px] font-[700] text-[14px]">Consider farms that have long
+                                term investment program.</p>
+                            <button
+                                class="w-[100px] h-[30px] rounded-[100px] text-[12px] font-[600] bg-white text-[#191919]">Learn
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-[80px] w-full flex justify-center">
+            <div class="w-[726px] h-[400px] bg-[#252C8A] rounded-[100px] mx-auto">
+                <div class="w-[558px] h-[316px] text-white ml-[84px] space-y-[20px] flex flex-col">
+                    <h2 class="w-[447px] h-[38px] text-[28px] font-[700] mx-auto pt-[42px]">Explanation of its
+                        functionality
+                    </h2>
+                    <p class="w-[543px] h-[63px] font-[600] text-[14px] mx-auto pt-[42px] leading-[19px]">Choose from
+                        various options within the supply chain and engage in agribusiness
+                        endeavors supported not only by Farm Flex but also by top-quality land,
+                        generational expertise, innovation, and overall superior knowledge.</p>
+                    <div class="relative w-[488px] h-[50px] mx-auto">
+                        <hr class="mt-[80px]">
+                        <div
+                            class="absolute w-[50px] h-[50px] bg-white rounded-full top-[55px] text-black text-center pt-3">
+                            <a class="text-[14px] font-[600]">01</a>
+                        </div>
+                        <div
+                            class="absolute w-[50px] h-[50px] border-[1px] border-white top-[55px] left-[150px] rounded-full text-center pt-3 bg-[#252C8A]">
+                            <a class="text-[14px] font-[600]">02</a>
+                        </div>
+                        <div
+                            class="absolute w-[50px] h-[50px] border-[1px] border-white top-[55px] left-[300px] rounded-full text-center pt-3 bg-[#252C8A]">
+                            <a class="text-[14px] font-[600]">03</a>
+                        </div>
+                        <div
+                            class="absolute w-[50px] h-[50px] border-[1px] border-white top-[55px] left-[450px] rounded-full text-center pt-3 bg-[#252C8A]">
+                            <a class="text-[14px] font-[600]">04</a>
+                        </div>
+                    </div>
+                    <div class="flex py-16">
+                        <h3 class="w-[215px] h-[85px] font-[600] text-[18px]">Choose your farmshare
+                            and fill out the
+                            reservation form.</h3>
+                        <p class="w-[323px] h-[85px] font-[600] text-[14px] leading-[19px]">Et harum quidem rerum
+                            facillis
+                            est et expendita
+                            distinctio. Name libero tempore,cum soluta
+                            nobis est eligendi optio cumque nihil imedit
+                            quo minus id quod maxime placeat facere</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-[80px]">
+            <div class="flex flex-col relative">
+                <div class="ml-32 space-y-[20px]">
+                    <h2 class="w-[307px] h-[81px] text-[28px] font-[700] text-[#191919]">Investors seem to be
+                        discussing FarmFlex</h2>
+                </div>
+                <div class="flex mx-auto gap-[57px] mt-[80px] w-[732px]">
+                    <div
+                        class="w-[350px] h-[239px] border-[1px] rounded-[30px] bg-[#252C8A] text-center items-center space-y-[20px] pb-2 drop-shadow-3xl shadow-2xl">
+                        <div class="w-[230px] h-[162px] mx-auto relative mt-[38px] text-white">
+                            <img class="absolute w-[50px] h-[54px] rounded-full top-[8px]" src="../img/page5_1.png"
+                                alt="">
+                            <h3 class="text-[18px] font-[700] pl-8 pb-1">Javier Gomez</h3>
+                            <h4 class="w-[163px] h-[44px] text-[16px] font-[600] ml-[75px] text-start">
+                                Telecommunications
+                                Specialist</h4>
+                            <p class="text-start w-[225px] h-[63px] text-[14px] font-[600] mt-[20px]">Quis autem vel eum
+                                iure
+                                reprehenderit qui in ea voluptate
+                                velit esse quam nihil molestiae</p>
+                        </div>
+                    </div>
+                    <div
+                        class="w-[350px] h-[239px] border-[1px] bg-white border-[#252C8A] rounded-[30px] text-center items-center space-y-[20px] pb-2 drop-shadow-3xl shadow-2xl">
+                        <div class="w-[230px] h-[162px] mx-auto relative mt-[38px] text-[#252C8A]">
+                            <img class="absolute w-[50px] h-[54px] rounded-full top-[8px]" src="../img/page5_2.png"
+                                alt="">
+                            <h3 class="text-[18px] font-[700] pl-11 pb-1">Sergio Morales</h3>
+                            <h4 class="w-[189px] h-[44px] text-[16px] font-[600] ml-[75px] text-start">Manager Of
+                                AgroGofund
+                                Association</h4>
+                            <p class="text-start w-[225px] h-[63px] text-[14px] font-[600] mt-[20px]">At vero eos et
+                                accusamus et iusto
+                                odio dignissimos ducimus qui
+                                blanditiis praesentium</p>
+                        </div>
+                    </div>
+                    <img class="absolute w-[30px] h-[30px] rotate-180 top-[265px] left-[73px]"
+                        src="../img/page2_arrow.png" alt="">
+                    <img class="absolute w-[30px] h-[30px] top-[265px] left-[897px]" src="../img/page2_arrow.png"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <section class="pt-[80px]">
+            <div
+                class="w-[701px] h-[204px] border-[1px] bg-white border-[#252C8A] mx-auto rounded-[100px] text-[#252C8A] text-center">
+                <h1 class="w-[563px] h-[38px] text-[28px] font-[700] mx-auto mt-[22px]">The Future of farm investing is
+                    farmflex</h1>
+                <p class="w-[422px] h-[41px] text-[14px] font-[600] mx-auto mt-[15px] text-center">"Embracing Innovation
+                    in
+                    Agriculture FarmFlex Revolutionizes
+                    Farm Investing for a Sustainable Future".</p>
                 <button
-                    class="bg-[#252C8A] text-white rounded-full py-2 px-8 w-1/3 drop-shadow-3xl shadow-[#252C8A]">Invest
-                    Quickly</button>
+                    class="w-[121px] h-[35px] bg-[#252C8A] text-white rounded-[100px] text-center mt-[30px] text-[14px] font-[600]">Invest
+                    Now</button>
             </div>
-            <img class="rounded-[100px] w-[408px] h-[400px] mx-auto" src="../img/page1-img.png" alt="">
-        </div>
-    </section>
-    <section class="pt-20">
-        <div class="flex flex-col relative">
-            <div class="ml-32 space-y-[20px]">
-                <h2 class="text-3xl font-bold text-[#191919]">Emerging chances</h2>
-                <p class="text-[14px] w-2/4 text-[#191919] font-[600] opacity-80">We stand as the premier and sole
-                    crowdfunding platform empowering
-                    you to contribute to financing our farmers.</p>
-            </div>
-            <div class="flex mx-auto gap-[57px] mt-[80px]">
-                <div
-                    class="w-[349px] h-[347px] border-[1px] rounded-[50px] border-[#252C8A] bg-white text-center items-center space-y-[20px] pb-2">
-                    <div class="flex items-center justify-center pt-[60px]">
-                        <img class="w-[55px] h-[56px]" src="../img/page2_1.png" alt="">
-                        <img class="w-[42px] h-[42px]" src="../img/page2_2.png" alt="">
-                    </div>
-                    <h3 class="text-[18px] font-[600] w-[240px] text-start ml-[42px]">Establish a connection with
-                        our agricultural producers.</h3>
-                    <p class="text-[#191919] opacity-60 text-[16px] text-start w-[265px] mx-auto">nemo enim ipsam
-                        voluptatem quia
-                        voluptas sit aspernatur aut odit aut
-                        fugit, sed quia consequuntur magni
-                        dolores</p>
-                </div>
-                <div
-                    class="w-[349px] h-[347px] border-[1px] border-[#252C8A] bg-white rounded-[50px] text-center items-center space-y-[20px] pb-2">
-                    <div class="flex items-center justify-center pt-[60px]">
-                        <img class="w-[55px] h-[55px] mx-auto" src="../img/page2_3.png" alt="">
-                    </div>
-                    <h3 class="text-[18px] font-[600] w-[220px] text-start ml-[64px]">Investment with a focus
-                        on social impact</h3>
-                    <p class="text-[#191919] opacity-60 text-[16px] text-start w-[214px] mx-auto">At vero eos et
-                        accusamus et
-                        iusto odio dignissimos ducimus
-                        qui blanditiis praesentium
-                        voluptatum deleniti atque</p>
-                </div>
-            </div>
-            <img class="absolute w-[30px] h-[30px] rotate-180 top-[350px] left-[140px]" src="../img/page2_arrow.png"
-                alt="">
-            <img class="absolute w-[30px] h-[30px] top-[350px] left-[1090px]" src="../img/page2_arrow.png" alt="">
-        </div>
-    </section>
-    <hr class="w-4/5 mx-auto text-[#D9D9D9]">
-    <section class="pt-20">
-        <div class="flex flex-col relative">
-            <div class="ml-32 space-y-[20px]">
-                <h2 class="text-3xl font-bold text-[#191919] w-[389px]">Invest at your convenience</h2>
-                <p class="text-[14px] w-[540px] text-[#191919] font-[600] opacity-80">Autem vel eum iure reprehenderit
-                    qui in ea voluptate velit esse quam nihil
-                    molestiae consequatur , vel illum qui dolorem eum fugiat quo voluptas nulla</p>
-            </div>
-            <div class="flex mx-auto mt-[80px] gap-[57px]">
-                <div class="relative">
-                    <img class="w-[356px] h-[289px] blur-[2px] rounded-[50px]" src="../img/page3_1.png" alt="">
-                    <div class="absolute w-[238px] h-[181px] text-start top-[54px] ml-[30px] space-y-[20px] text-white">
-                        <h3 class="w-[150px] h-[68px] font-[700] text-[24px]">Quick profit
-                            investment</h3>
-                        <p class="w-[237px] h-[43px] font-[700] text-[14px]">Invest in farm that will benready
-                            for harvest in 3-18 months </p>
-                        <button
-                            class="w-[100px] h-[30px] rounded-[100px] text-[12px] font-[600] bg-white text-[#191919]">Browse
-                            farm</button>
-                    </div>
-                </div>
-                <div class="relative">
-                    <img class="w-[356px] h-[289px] blur-[2px] rounded-[50px]" src="../img/page3_2.png" alt="">
-                    <div class="absolute w-[238px] h-[181px] text-start top-[54px] ml-[30px] space-y-[20px] text-white">
-                        <h3 class="w-[217px] h-[68px] font-[700] text-[24px]">Long-term growth
-                            investment</h3>
-                        <p class="w-[211px] h-[43px] font-[700] text-[14px]">Consider farms that have long
-                            term investment program.</p>
-                        <button
-                            class="w-[100px] h-[30px] rounded-[100px] text-[12px] font-[600] bg-white text-[#191919]">Learn
-                            more</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pt-20 w-full flex justify-center">
-        <div class="w-[726px] h-[400px] bg-[#252C8A] rounded-[100px] mx-auto">
-            <div class="w-[558px] h-[316px] text-white ml-[84px] space-y-[20px] flex flex-col">
-                <h2 class="w-[447px] h-[38px] text-[28px] font-[700] mx-auto pt-[42px]">Explanation of its functionality
-                </h2>
-                <p class="w-[543px] h-[63px] font-[600] text-[14px] mx-auto pt-[42px] leading-[19px]">Choose from
-                    various options within the supply chain and engage in agribusiness
-                    endeavors supported not only by Farm Flex but also by top-quality land,
-                    generational expertise, innovation, and overall superior knowledge.</p>
-                <div class="relative w-[488px] h-[50px] mx-auto">
-                    <hr class="mt-[80px]">
-                    <div
-                        class="absolute w-[50px] h-[50px] bg-white rounded-full top-[55px] text-black text-center pt-3">
-                        <a class="text-[14px] font-[600]">01</a>
-                    </div>
-                    <div
-                        class="absolute w-[50px] h-[50px] border-[1px] border-white top-[55px] left-[150px] rounded-full text-center pt-3 bg-[#252C8A]">
-                        <a class="text-[14px] font-[600]">02</a>
-                    </div>
-                    <div
-                        class="absolute w-[50px] h-[50px] border-[1px] border-white top-[55px] left-[300px] rounded-full text-center pt-3 bg-[#252C8A]">
-                        <a class="text-[14px] font-[600]">03</a>
-                    </div>
-                    <div
-                        class="absolute w-[50px] h-[50px] border-[1px] border-white top-[55px] left-[450px] rounded-full text-center pt-3 bg-[#252C8A]">
-                        <a class="text-[14px] font-[600]">04</a>
-                    </div>
-                </div>
-                <div class="flex py-16">
-                    <h3 class="w-[215px] h-[85px] font-[600] text-[18px]">Choose your farmshare
-                        and fill out the
-                        reservation form.</h3>
-                    <p class="w-[323px] h-[85px] font-[600] text-[14px] leading-[19px]">Et harum quidem rerum facillis
-                        est et expendita
-                        distinctio. Name libero tempore,cum soluta
-                        nobis est eligendi optio cumque nihil imedit
-                        quo minus id quod maxime placeat facere</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pt-20">
-        <div class="flex flex-col relative">
-            <div class="ml-32 space-y-[20px]">
-                <h2 class="w-[307px] h-[81px] text-3xl font-bold text-[#191919]">Investors seem to be
-                    discussing FarmFlex</h2>
-            </div>
-            <div class="flex mx-auto gap-[57px] mt-[80px]">
-                <div
-                    class="w-[350px] h-[239px] border-[1px] rounded-[30px] bg-[#252C8A] text-center items-center space-y-[20px] pb-2 drop-shadow-3xl shadow-2xl">
-                    <div class="w-[230px] h-[162px] mx-auto relative mt-10 text-white">
-                        <img class="absolute w-[50px] h-[54px] rounded-full top-[8px]" src="../img/page5_1.png" alt="">
-                        <h3 class="text-[18px] font-[700] pl-8 pb-1">Javier Gomez</h3>
-                        <h4 class="w-[163px] h-[44px] text-[16px] font-[600] ml-[75px] text-start">Telecommunications
-                            Specialist</h4>
-                        <p class="text-start w-[225px] h-[63px] text-[14px] font-[600] mt-[20px]">Quis autem vel eum
-                            iure
-                            reprehenderit qui in ea voluptate
-                            velit esse quam nihil molestiae</p>
-                    </div>
-                </div>
-                <div
-                    class="w-[350px] h-[239px] border-[1px] bg-white border-[#252C8A] rounded-[30px] text-center items-center space-y-[20px] pb-2 drop-shadow-3xl shadow-2xl">
-                    <div class="w-[230px] h-[162px] mx-auto relative mt-10 text-[#252C8A]">
-                        <img class="absolute w-[50px] h-[54px] rounded-full top-[8px]" src="../img/page5_2.png" alt="">
-                        <h3 class="text-[18px] font-[700] pl-11 pb-1">Sergio Morales</h3>
-                        <h4 class="w-[189px] h-[44px] text-[16px] font-[600] ml-[75px] text-start">Manager Of AgroGofund
-                            Association</h4>
-                        <p class="text-start w-[225px] h-[63px] text-[14px] font-[600] mt-[20px]">At vero eos et
-                            accusamus et iusto
-                            odio dignissimos ducimus qui
-                            blanditiis praesentium</p>
-                    </div>
-                </div>
-                <img class="absolute w-[30px] h-[30px] rotate-180 top-[265px] left-[140px]" src="../img/page2_arrow.png"
-                    alt="">
-                <img class="absolute w-[30px] h-[30px] top-[265px] left-[1090px]" src="../img/page2_arrow.png" alt="">
-            </div>
-        </div>
-    </section>
-    <section class="pt-20">
-        <div
-            class="w-[701px] h-[204px] border-[1px] bg-white border-[#252C8A] mx-auto rounded-[100px] text-[#252C8A] text-center">
-            <h1 class="w-[563px] h-[38px] text-[28px] font-[700] mx-auto mt-4 pl-2">The Future of farm investing is
-                farmflex</h1>
-            <p class="w-[422px] h-[41px] text-[14px] font-[600] mx-auto mt-3 text-center">"Embracing Innovation in
-                Agriculture FarmFlex Revolutionizes
-                Farm Investing for a Sustainable Future".</p>
-            <button
-                class="w-[121px] h-[35] bg-[#252C8A] text-white py-[7px] px-4 rounded-[100px] text-center mt-8 text-[14px] font-[600]">Invest
-                Now</button>
-        </div>
-    </section>
-    <footer class="pt-20">
+        </section>
+    </main>
+    <footer class="pt-[80px]">
         <div class="w-full h-[400px] bg-[#252C8A]">
-            <div class="flex pt-[43px] pl-[100px]">
+            <div class="flex pt-[43px] pl-[73px]">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M26.6137 36.195C26.6137 32.1355 29.7997 28.8452 33.7296 28.8452C34.7119 28.8452 35.648 29.05 36.4996 29.4224C39.0527 30.5388 40.845 33.1506 40.845 36.195C40.845 40.2527 37.6594 43.5435 33.7296 43.5435C29.7997 43.5435 26.6137 40.2527 26.6137 36.195ZM50.0001 2.87922C47.433 2.97853 44.2959 5.05702 44.2285 8.75893C44.2151 9.51574 44.2026 10.3413 44.1919 11.2137C42.7487 6.59069 41.4182 2.28761 40.7442 0C38.3325 0.913422 35.9712 3.89196 37.0136 7.43344C37.358 8.60136 37.8023 10.0739 38.3006 11.7064L38.3011 11.7088C35.5477 7.48836 33.0537 3.64415 31.8273 1.69364C29.7553 3.26217 28.2857 6.8003 30.2389 9.90442C32.1102 12.8796 35.8639 18.659 39.0366 23.5236C39.0019 23.5079 38.9677 23.4883 38.9321 23.4735C37.3331 22.7749 35.575 22.3887 33.7296 22.3887C26.3474 22.3887 20.3627 28.5701 20.3627 36.195C20.3627 43.819 26.3474 50 33.7296 50H46.7752C48.5184 50 49.9307 48.5408 49.9307 46.7402V29.4454C49.9307 29.4454 49.8757 9.701 50.0001 2.87922Z"
@@ -280,44 +304,48 @@ background-size: cover;">
                         d="M0 30.8394C0 30.8394 4.15176 24.9262 9.83321 24.4253C15.5142 23.9264 20.5748 29.0278 20.5748 29.0278L0 30.8394Z"
                         fill="white" />
                 </svg>
-                <h1 class="text-[35px] text-white">FarmFlex</h1>
+                <h1 class="text-[35px] font-[600] text-white">FarmFlex</h1>
             </div>
-            <div class="flex flex-row gap-[90px] mt-[20px] ml-[100px]">
+            <div class="flex w-[854px] flex-row gap-[90px] mt-[41px] ml-[73px] tracking-[1px]">
                 <div class="flex flex-col text-white space-y-[15px]">
                     <a class="text-[14px] font-[700]">Company</a>
-                    <a class="text-[14px]">about us</a>
-                    <a class="text-[14px]">team</a>
-                    <a class="text-[14px]">careers</a>
-                    <a class="text-[14px]">contact</a>
+                    <a class="text-[14px] font-[600]">about us</a>
+                    <a class="text-[14px] font-[600]">team</a>
+                    <a class="text-[14px] font-[600]">careers</a>
+                    <a class="text-[14px] font-[600]">contact</a>
                 </div>
-                <div class="flex flex-col text-white space-y-[15px]">
+                <div class="flex flex-col w-[97px] text-white space-y-[15px]">
                     <a class="text-[14px] font-[700]">invest</a>
-                    <a class="text-[14px]">features</a>
-                    <a class="text-[14px]">how it works</a>
-                    <a class="text-[14px]">pricing</a>
-                    <a class="text-[14px]">login</a>
+                    <a class="text-[14px] font-[600]">features</a>
+                    <a class="text-[14px] font-[600]">how it works</a>
+                    <a class="text-[14px] font-[600]">pricing</a>
+                    <a class="text-[14px] font-[600]">login</a>
                 </div>
                 <div class="flex flex-col text-white space-y-[15px]">
                     <a class="text-[14px] font-[700]">lEGAL</a>
-                    <a class="text-[14px]">Privacy</a>
-                    <a class="text-[14px]">terms</a>
-                    <a class="text-[14px]">security</a>
+                    <a class="text-[14px] font-[600]">Privacy</a>
+                    <a class="text-[14px] font-[600]">terms</a>
+                    <a class="text-[14px] font-[600]">security</a>
                 </div>
                 <div
-                    class="w-[200px] h-[200px] bg-white rounded-[50px] ml-[350px] text-[#252C8A] text-center space-y-[15px]">
+                    class="w-[200px] h-[200px] bg-white rounded-[50px] ml-[148px] text-[#252C8A] text-center space-y-[15px]">
                     <h2 class="text-[20px] font-[700] mt-5">Blog farmFlex</h2>
                     <p class="text-[14px] font-[600]">write email to us</p>
-                    <p>info@farmflex.com</p>
+                    <p class="text-[14px] font-[600]">info@farmflex.com</p>
                     <a
-                        class="w-[121px] flex flex-row items-center text-center py-2 px-[14px] bg-[#252C8A] text-white rounded-full mx-auto"><img
-                            class="w-[18px] h-[18px] mr-4" src="../img/signup_img.png" alt="">Sign Up</a>
+                        class="w-[121px] h-[35px] flex flex-row items-center text-center bg-[#252C8A] text-white rounded-full mx-auto text-[12px] font-[600] pl-[20px]"><img
+                            class="w-[18px] h-[18px] mr-[10px]" src="../img/signup_img.png" alt="">Sign Up</a>
                 </div>
             </div>
-            <div class="flex gap-[25px] ml-[100px]">
-                <img src="../img/footer_1.png" alt="">
-                <img src="../img/footer_2.png" alt="">
-                <img src="../img/footer_3.png" alt="">
-                <img src="../img/footer_4.png" alt="">
+            <div class="flex gap-[25px] ml-[73px] mt-[24px]">
+                <img class="w-[30px] h-[30px]" src="../img/footer_1.png" alt="">
+                <img class="w-[30px] h-[30px]" src="../img/footer_2.png" alt="">
+                <img class="w-[30px] h-[30px]" src="../img/footer_3.png" alt="">
+                <img class="w-[30px] h-[30px]" src="../img/footer_4.png" alt="">
+                <div class="flex items-center gap-2 ml-[421px]">
+                    <img class="w-[15px] h-[15px]" src="../img/copy.png" alt="">
+                    <p class="text-[14px] font-[600] text-white">Copyright 2024.Farmflex Pvt LTD</p>
+                </div>
             </div>
         </div>
     </footer>
